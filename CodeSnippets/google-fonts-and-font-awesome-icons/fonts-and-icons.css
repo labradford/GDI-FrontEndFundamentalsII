@@ -1,0 +1,43 @@
+
+/* center align heading text */
+h3,
+h1,
+h2 {
+    text-align: center;
+}
+
+p#font {
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+/* font-styling using google fonts for portfolio-heading */
+
+#portfolio-heading {
+    font-family: 'Black Han Sans', sans-serif;
+    
+}
+
+/* Social Icons section */
+#socialIcons {
+    background: lightcoral;
+    color: black;
+    margin-top: 20px;
+    padding: 25px 0;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+i.fa.fa-github.fa-3x,
+i.fa.fa-facebook.fa-3x,
+i.fa.fa-instagram.fa-3x,
+i.fa.fa-linkedin.fa-3x {
+    margin: 20px;
+}
+
+#social-font {
+    text-decoration: underline;
+}

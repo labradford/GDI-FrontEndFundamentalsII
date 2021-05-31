@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Blend Modes</title>
+		<style>
+			body {
+				font-family: sans-serif;
+				font-size: 20px;
+			}
+			/* Background layer with an image */
+			.backdrop {
+				background: url("images/mulit.jpg") center;
+				background-size: cover;
+				height: 350px;
+			}
+			/* Dark foreground layer, with white text, set to "multiply" mix blend mode */
+			.text {
+				text-align: center;
+				color: black;
+  				mix-blend-mode: lighten;
+  				background-color: rgb(244, 220, 211);			
+				height: 340px;
+				font-size: 200px;
+				font-weight: bolder;
+				border: 4px solid;
+				margin:0;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="backdrop">
+		 	<p class="text">Hello World</p>
+		</div>
+	</body>
+</html>
