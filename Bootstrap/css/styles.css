@@ -1,0 +1,4 @@
+.my-h1-override > h1 {
+  color: red;
+  font-size: 3.5rem;
+}

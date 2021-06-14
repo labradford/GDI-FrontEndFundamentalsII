@@ -7,8 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" /> <!-- Triggers responsive -->
 	</head>
 	<body>
-		<div id="masthead"> <!-- Start Header area -->
-			<div class="nav">
+		<header id="masthead"> <!-- Start Header area -->
+			<nav class="nav">
 				<div class="container">
 					<ul> <!-- Main navigation -->
 						<li>
@@ -22,116 +22,118 @@
 						</li>	
 					</ul>
 				</div>
-			</div>
-		</div>
+			</nav>
+		</header>
 
 
-		<div id="hero"> <!-- Full bleed hero image -->
-			<img src="images/puppy.jpg" />
-			<h2>Hello!</h2>
-			<h3>Welcome to my Resume page.</h3>
-		</div>
+		<section id="hero"> <!-- Full bleed hero image -->
+			<img src="images/puppy.jpg" alt="Corgie puppy on a couch" />
+			<h1>Hello!</h1>
+			<h2>Welcome to my Resume page.</h2>
+		</section>
 
-		<div id="main-content" class="container"> <!-- Main body content -->
+		<main id="main-content" class="container"> <!-- Main body content -->
 			<h3>About Me</h3>
-			<div id="about" class="flex-container">
-				<div class="column"> <!-- First column -->
-					<img src="images/bluesq.jpg" />
-					<h5>First thing about me</h5>
+			<section id="about" class="flex-container">
+				<article class="column"> <!-- First column -->
+					<img src="images/bluesq.jpg" alt="blue and green triangulated graphic" />
+					<h4>First thing about me</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="column"><!-- Second column -->
-					<img src="images/multi1sq.jpg" />
-					<h5>Second thing about me</h5>
+				</article>
+				<article class="column"><!-- Second column -->
+					<img src="images/multi1sq.jpg" alt="multi-color triangulated graphic" />
+					<h4>Second thing about me</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="column"> <!-- Third column -->
-					<img src="images/pinksq.jpg" />
-					<h5>Third thing about me</h5>
+				</article>
+				<article class="column"> <!-- Third column -->
+					<img src="images/pinksq.jpg" alt="pink triangulated graphic" />
+					<h4>Third thing about me</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="column"> <!-- Fourth column -->
-					<img src="images/bluesq.jpg" />
-					<h5>Fourth thing about me</h5>
+				</article>
+				<article class="column"> <!-- Fourth column -->
+					<img src="images/bluesq.jpg" alt="blue and green triangulated graphic" />
+					<h4>Fourth thing about me</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="column"><!-- Fifth column -->
-					<img src="images/multi1sq.jpg" />
-					<h5>Fifth thing about me</h5>
+				</article>
+				<article class="column"><!-- Fifth column -->
+					<img src="images/multi1sq.jpg" alt="multi-color triangulated graphic" />
+					<h4>Fifth thing about me</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-				<div class="column"> <!-- Sixth column -->
-					<img src="images/pinksq.jpg" />
-					<h5>Sixth thing about me</h5>
+				</article>
+				<article class="column"> <!-- Sixth column -->
+					<img src="images/pinksq.jpg" alt="pink triangulated graphic"/>
+					<h4>Sixth thing about me</h4>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				</div>
-			</div>
-		</div>
+				</article>
+			</section>
+			
+			<section id="experience" class="container">
+				<h3>My Experience</h3>
+				<article class="job"><!-- first job in the list -->
+					<p>
+						Company One<br />My Title
+					</p>
+					<ul>
+						<li>List of your responsibilities</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<p>
+						Start date - End date
+					</p>
+				</article>
+				<article class="job"><!-- second job in the list -->
+					<p>
+						Company Two<br />My Title
+					</p>
+					<ul>
+						<li>List of your responsibilities</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<p>
+						Start date - End date
+					</p>
+				</article>
+				<article class="job"><!-- third job in the list -->
+					<p>
+						Company Three<br />My Title
+					</p>
+					<ul>
+						<li>List of your responsibilities</li>
+						<li>Lorem Ipsum</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<p>
+						Start date - End date
+					</p>
+				</article>
+				<article class="job"><!-- fourth job in the list -->
+					<p>
+						Company Four<br />My Title
+					</p>
+					<ul>
+						<li>List of your responsibilities</li>
+						<li>Lorem Ipsum</li>
+					</ul>
+					<p>
+						Start date - End date
+					</p>
+				</article>
+			</section>
+			
+			<section id="social-links"> <!-- Full width section, above footer -->
+				<ul>
+					<li><a href="http://www.linkedin.com/in/leaannbradford">LinkedIn</a></li>
+					<li><a href="http://www.facebook.com">Facebook</a></li>
+					<li><a href="http://www.twitter.com">Twitter</a></li>
+				</ul>
+			</section>
+		</main>
 
-		<div id="experience" class="container">
-			<h3>My Experience</h3>
-			<div class="job"><!-- first job in the list -->
-				<p>
-					Company One<br />My Title
-				</p>
-				<ul>
-					<li>List of your responsibilities</li>
-					<li>Lorem Ipsum</li>
-				</ul>
-				<p>
-					Start date - End date
-				</p>
-			</div>
-			<div class="job"><!-- second job in the list -->
-				<p>
-					Company Two<br />My Title
-				</p>
-				<ul>
-					<li>List of your responsibilities</li>
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-				</ul>
-				<p>
-					Start date - End date
-				</p>
-			</div>
-			<div class="job"><!-- third job in the list -->
-				<p>
-					Company Three<br />My Title
-				</p>
-				<ul>
-					<li>List of your responsibilities</li>
-					<li>Lorem Ipsum</li>
-					<li>Lorem Ipsum</li>
-				</ul>
-				<p>
-					Start date - End date
-				</p>
-			</div>
-			<div class="job"><!-- fourth job in the list -->
-				<p>
-					Company Four<br />My Title
-				</p>
-				<ul>
-					<li>List of your responsibilities</li>
-					<li>Lorem Ipsum</li>
-				</ul>
-				<p>
-					Start date - End date
-				</p>
-			</div>
-		</div>
-
-		<div id="social-links"> <!-- Full width section, above footer -->
-			<p><a href="http://www.linkedin.com">Click here</a> to visit my LinkedIn.</p>
-			<p><a href="http://www.facebook.com">Click here</a> to visit Facebook.</p>
-			<p><a href="http://www.twitter.com">Click here</a> to visit Twitter.</p>
-		</div>
-
-		<div class="footer"> <!-- Footer -->
+		<footer class="footer"> <!-- Footer -->
 			&copy; 2021, your name here
-		</div>
+		</footer>
 
 	</body>
 </html>

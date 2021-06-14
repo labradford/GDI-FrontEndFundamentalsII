@@ -38,7 +38,7 @@ body {
   background-size: cover;
 }
 
-#hero h2 {
+#hero h1 {
   font-size: 36px;
 }
 
@@ -47,3 +47,91 @@ body {
   border-radius: 10px 40px;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.column {
+  width: 100%;
+  padding: 15px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.job {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #0064e6;
+  padding: 24px 15px;
+}
+
+#social-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  padding: 50px;
+  height: 300px;
+}
+
+#social-links li {
+  padding: 16px;
+}
+
+footer {
+  padding: 100px;
+  background-color: #0064e6;
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+@media only screen and (min-width: 992px) {
+  #hero h1 {
+    font-size: 48px;
+    color: red;
+  }
+
+  .column {
+    width: 30%;
+    border: 1px solid red;
+    background-color: palevioletred
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .flex-container {
+    display: block;
+  }
+  .column {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .column {
+    width: 45%;
+    border: 1px dotted green;
+    background-color: papayawhip;
+  }
+  #hero h1 {
+    font-size: 48px;
+    color: green;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .column {
+    width: 20%;
+    border: 1px double purple;
+    background-color: plum;
+  }
+  #hero h1 {
+    color: purple;
+  }
+}
